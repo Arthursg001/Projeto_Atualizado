@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.EventActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azul"
+            android:elevation="3dp"
+            app:title="toolBar"
+            app:titleTextColor="@color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edit_nome_evento"
+                    style="@style/Edit_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/NomeEvento"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/edit_data_evento"
+                    style="@style/Edit_Text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="@string/data"
+                    android:inputType="datetime" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_hora_ini"
+                        style="@style/Edit_Text"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="@string/hora"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:id="@+id/edit_hora_fin"
+                        style="@style/Edit_Text"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="@string/hora"
+                        android:inputType="time" />
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edit_local_evento"
+                    style="@style/Edit_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/LocalEvento"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/edit_descricao_evento"
+                    style="@style/Edit_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="149dp"
+                    android:ems="10"
+                    android:hint="@string/descricao"
+                    android:inputType="text" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bt_Salvar"
+                    style="@style/Button"
+                    android:layout_marginTop="80dp"
+                    android:text="@string/salvar" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

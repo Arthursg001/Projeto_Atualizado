@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Conteiner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/conteiner</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+
+    </style>
+
+    <style name="caixa">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/caixa</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+
+    </style>
+
+
+    <style name="Edit_Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@drawable/edit_button</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="Widget.CalendarView.Custom" parent="android:Widget.CalendarView">
+
+        <item name="android:background">@drawable/conteiner</item>
+        <item name="android:focusedMonthDateColor">@color/black</item>
+        <item name="android:selectedWeekBackgroundColor">@color/cinzaClaro</item>
+        <item name="android:selectedDateVerticalBar">@color/azul</item>
+        <item name="android:unfocusedMonthDateColor">@color/azul</item>
+        <item name="android:showWeekNumber">false</item>
+        <item name="android:shownWeekCount">4</item>
+        <item name="android:weekDayTextAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:dateTextAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+
+    <style name="toobar">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/toolbar</item>
+        <item name="android:padding">2dp</item>
+<!--        <item name="android:layout_marginLeft">40dp</item>-->
+<!--        <item name="android:layout_marginRight">40dp</item>-->
+<!--        <item name="android:layout_marginTop">15dp</item>-->
+
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "241966862777",
+    "project_id": "agendamaster-2c103",
+    "storage_bucket": "agendamaster-2c103.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241966862777:android:1fe5182ac9ce6dccdaa668",
+        "android_client_info": {
+          "package_name": "dev.samuel.teste.agenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241966862777-e5aq5049hcmrekk98td23518t9htopso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLZLb0uaUHILUPUrGUxya4S9l2z61Nj_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241966862777-e5aq5049hcmrekk98td23518t9htopso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
